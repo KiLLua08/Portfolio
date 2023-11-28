@@ -1,7 +1,9 @@
+// @ts-nocheck
 import './Header.css'
-// @ts-ignore
-import minu from '../../assets/more.png';
 import { useState } from 'react';
+import minu from '../../assets/more.png';
+import out from '../../assets/icons/no.png';
+import moonlight from '../../assets/icons/day-and-night.png';
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -15,7 +17,7 @@ const Header = () => {
   return (
     <header className='flex'>
       <div></div>
-      <button id='btn' onClick={showMenu} className='show-menu'><img src={minu} alt="menu" width={40} height={40} /></button>
+      <button id='btn' onClick={showMenu} className='show-menu'><img src={minu} alt="menu" width={30} /></button>
       <nav>
         <ul className=''>
           <ul className='flex'>
@@ -27,12 +29,10 @@ const Header = () => {
           </ul>
         </ul>
       </nav>
-      <button className='border'>
-        light
-      </button>
+      <button className='border' onClick={()=>{}}><i className='icon'><img src={moonlight} alt="dan" width={60} /></i></button>
       {show && (
               <menu className='fixed'>
-                <button className='x' onClick={HideMenu}>X</button>
+                <button className='x' onClick={HideMenu}><img src={out} alt='out' width={60}></img></button>
                 <ul className='model border'>
                   <li><a href="">About</a></li>
                   <li><a href="">Articles</a></li>

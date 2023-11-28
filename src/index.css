@@ -60,5 +60,5 @@ ul li a {
 
 .border {
   border: 1px solid var(--border);
-  border-radius: 10rem;
+  border-radius: 30px;
 }

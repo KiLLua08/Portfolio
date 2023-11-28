@@ -45,6 +45,7 @@ header .fixed {
 }
 
 header .fixed ul.model {
+    animation: scalable 0.8s 1;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -82,25 +83,45 @@ header .fixed ul.model li a:hover {
 
 .x {
     cursor: pointer;
-    border-radius: 0 10px 0 9px;
     position: fixed;
     inset: 7% 84%;
-    background-color: coral;
-    border: 1px solid white;
-    color: azure;
+}
+.x:hover {
+    scale: 0.91;
+}
+
+button {
+    all: unset;
+}
+
+button i.icon{
+    cursor: pointer;
+}
+button i.icon img:active{
+    scale: 0.91;
+}
+
+#btn {
+    border: 1px solid chocolate;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#btn:active {
+    scale: 0.91;
 }
 
 
-
-
-
-
-
-
+@keyframes scalable {
+    0% {scale: 0;}
+    60% {scale: 1.05;}
+    100% {scale: 1;}
+}
 
 @media (max-width: 700px) {
     nav {display: none;}
     .show-menu {display: block;}
+    header div {display: none;}
 }
 
 
