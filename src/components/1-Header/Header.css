@@ -10,6 +10,7 @@ header ul li a {
 }
 
 header ul li a:hover {
+  color: var(--blue);
   opacity: 1;
   font-size: 0.9rem;
 }
@@ -42,6 +43,7 @@ header .fixed {
   inset: 0;
   z-index: 1;
   background-color: rgb(40, 40, 48,0.911);
+  backdrop-filter: blur(4px);
 }
 
 header .fixed ul.model {

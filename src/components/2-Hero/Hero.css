@@ -1,0 +1,67 @@
+.hero {
+    margin: 15px;
+} 
+
+
+.left {
+    width: 60%;
+    display: block;
+    padding: 50px;
+    flex-grow:1;
+}
+.title {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.broder {
+    border: 1px solid rgb(255, 255, 255);
+    width: 201px;
+    height: 201px;
+    border-radius:100px ;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    box-shadow: 2px 2px 60px;
+}
+
+.me {
+    border-radius: 100px;
+}
+
+.up {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+
+.down .socials {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+ 
+.left p {
+    margin-bottom: 14px;
+}
+
+.left .lilte {
+    margin-bottom: 40px;
+}
+
+.down .socials img {
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.right {
+    width: auto;
+}
