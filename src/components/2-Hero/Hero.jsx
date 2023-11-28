@@ -21,10 +21,10 @@ const Hero = () => {
         <p className='lilte'>🚀 Recent Computer Engineering graduate (2023) with a passion for crafting innovative solutions through code.<br/> At 22, I bring a fresh perspective and a tenacious attitude to overcome challenges in the world of software engineering.</p>
         <div className="down">
           <ul className='socials'>
-            <li><a href=""><img src={gmail} alt="gml" /></a></li>
-            <li><a href=""><img src={linkedin} alt="lnkd" /></a></li>
-            <li><a href=""><img src={instagram} alt="ig" /></a></li>
-            <li><a href=""><img src={github} alt="git" /></a></li>
+            <li><a href="rayen08yako@gmail.com"><img src={gmail} alt="gml" target='_blank'/></a></li>
+            <li><a href="https://www.linkedin.com/in/rayen-yakoubi-503548254" target='_blank'><img src={linkedin} alt="lnkd" /></a></li>
+            <li><a href="https://www.instagram.com/rayen_yakoubi_08/" target='_blank'><img src={instagram} alt="ig" /></a></li>
+            <li><a href="https://github.com/KiLLua08" target='_blank'><img src={github} alt="git" /></a></li>
           </ul>
         </div>
       </div>
